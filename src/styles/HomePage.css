@@ -1,18 +1,65 @@
-/* styles.css */
+/* HomePage.css */
 
+.HomeTitle h2 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 100px;
+  margin-bottom: 10px;
+  padding-top: 80px;
 
+}
 
+.container-home {
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 50px;
+}
+
+.home-text {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  color: rgb(123, 123, 123);
+
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px); /* Move the element upward */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* Move the element back to its original position */
+  }
+}
+
+.HomeTitle h2,
+.home-text {
+  animation: fadeIn 1s ease-in; /* Apply the animation */
+}
+
+@media only screen and (max-width: 768px) {
   .HomeTitle h2 {
-    font-family: "Outfit", sans-serif; /* Menggunakan font "Outfit" */
-    font-optical-sizing: auto;
-    font-weight: 700; /* Ketebalan font yang sesuai */
-    font-style: normal; /* Gaya font normal */
-    font-size: 70px; /* Ukuran font yang lebih besar */
-    margin-bottom: 10px; /* Margin bawah agar terlihat lebih rapi */
-    
+    font-size: 40px;
+    padding-top: 80px;
+  }
+  .container-home {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
   }
 
-  
-
-  
-  
+  .home-text {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    color: rgb(123, 123, 123);
+  }
+}

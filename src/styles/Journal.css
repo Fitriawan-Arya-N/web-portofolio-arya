@@ -10,12 +10,51 @@
     font-style: normal; /* Gaya font normal */
     font-size: 50px; /* Ukuran font yang lebih besar */
     margin-bottom: 10px; /* Margin bawah agar terlihat lebih rapi */
+    padding-top: 20px;
+  }
+
+  .container-journal {
+    margin-left: 400px;
+    margin-right: 400px;
+    opacity: 0; /* Awalnya atur opasitas menjadi 0 */
+    transition: opacity 1s ease-in; /* Tambahkan transisi untuk animasi fade in */
+  }
+  .fade-in {
+    opacity: 1; /* Saat class fade-in ditambahkan, ubah opasitas menjadi 1 */
+  }
+  
+  .journal-text {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    color: rgb(123, 123, 123);
   }
   
   /* Media Queries */
   @media only screen and (max-width: 768px) {
     .JournalTitle h2 {
       font-size: 40px; /* Ubah ukuran font menjadi lebih kecil untuk perangkat seluler */
+    }
+    .container-journal {
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-bottom: 50px;
+      opacity: 0; /* Awalnya atur opasitas menjadi 0 */
+      transition: opacity 1s ease-in; /* Tambahkan transisi untuk animasi fade in */
+    }
+    .fade-in {
+      opacity: 1; /* Saat class fade-in ditambahkan, ubah opasitas menjadi 1 */
+    }
+  
+    .journal-text {
+      font-family: "Urbanist", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 15px;
+      color: rgb(123, 123, 123);
     }
   }
 

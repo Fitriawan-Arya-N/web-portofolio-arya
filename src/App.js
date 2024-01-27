@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage'; // Impor halaman Home
 import About from './pages/About'; // Impor halaman About
 import Journal from './pages/Journal'; // Impor halaman Journal
 import Project from './pages/Project'; // Impor halaman Project
+import Footer from './components/Footer';
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <About /> {/* Tampilkan halaman About */}
       <Journal /> {/* Tampilkan halaman Journal */}
       <Project /> {/* Tampilkan halaman Project */}
+      <Footer />
     </div>
   );
 };

@@ -4,7 +4,11 @@ import "../styles/Header.css";
 const scrollToSection = (sectionId) => {
   const section = document.getElementById(sectionId);
   if (section) {
-    section.scrollIntoView({ behavior: "smooth" });
+    const headerHeight = document.querySelector('.header').offsetHeight;
+    const yOffset = -headerHeight; // Adjust this value if needed
+    const y = section.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+    window.scrollTo({ top: y, behavior: 'smooth' });
   }
 };
 

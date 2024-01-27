@@ -1,41 +1,48 @@
-/* CSS utama */
+/* Header.css */
+
 .header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: #ffffff;
-    z-index: 1000; 
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  z-index: 1000;
+  text-align: center;
+  box-shadow: 0px 1px 4px rgba(99, 99, 99, 0.1);
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li button {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  background: none;
+  border: none;
+  color: #000000;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  .header {
+    padding: 10px;
   }
   
   nav ul li button {
-    background: none;
-    border: none;
-    color: #000000;
-    font-size: 1.5rem; /* Ubah ukuran font menjadi responsif */
-    cursor: pointer;
-    margin: 10px 0; /* Ubah margin atas dan bawah */
+    font-size: 1rem;
   }
-  
-  /* Media Queries */
-  @media only screen and (max-width: 768px) {
-    .header {
-      padding: 10px; /* Tambahkan padding untuk membuat tombol lebih terpisah */
-    }
-    
-    nav ul li button {
-      font-size: 1rem; /* Ubah ukuran font menjadi lebih kecil untuk perangkat seluler */
-    }
-  }
-  
+}
