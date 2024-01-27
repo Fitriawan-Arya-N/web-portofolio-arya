@@ -1,0 +1,62 @@
+.footer {
+    position: relative;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(99, 99, 99, 0.1);
+    margin-right: 400px;
+    margin-left: 400px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left-column {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .right-column {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .footer-content p {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .footer {
+      padding: 10px;
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+  
+    .footer-content {
+      flex-direction: row; /* Mengatur arah kolom menjadi horizontal */
+      justify-content: space-between; /* Menyejajarkan elemen-elemen di sisi kiri dan kanan */
+      align-items: center; /* Memastikan elemen-elemen sejajar */
+      text-align: left; /* Menata teks agar berada di kiri */
+    }
+  
+    .left-column,
+    .right-column {
+      margin-top: 10px; /* Memberikan jarak antara kolom */
+      width: 48%; /* Memberikan lebar agar dapat sejajar */
+    }
+  }
+  
+  
+  
+  
+  
+  

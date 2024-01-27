@@ -1,15 +1,18 @@
 import React from 'react';
-// import "../styles/Footer.css";
+import "../styles/Footer.css";
 
 const Footer = () => {
   return (
-    <header className="footer">
-      <nav>
-        <ul>
-          <li>Built with Tolak Angin</li>
-        </ul>
-      </nav>
-    </header>
+    <footer className="footer">
+      <div className="footer-content">
+        <div className="left-column">
+          Fitriawan Arya Nugraha
+        </div>
+        <div className="right-column">
+          Built with Tolak Angin
+        </div>
+      </div>
+    </footer>
   );
 };
 
