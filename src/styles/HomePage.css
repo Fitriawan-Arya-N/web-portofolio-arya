@@ -1,11 +1,23 @@
 /* styles.css */
 
-body {
+
+
+  body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
   }
   
+  .content-section h2 {
+    font-family: "Outfit", sans-serif; /* Menggunakan font "Outfit" */
+    font-optical-sizing: auto;
+    font-weight: 700; /* Ketebalan font yang sesuai */
+    font-style: normal; /* Gaya font normal */
+    font-size: 70px; /* Ukuran font yang lebih besar */
+    margin-bottom: 10px; /* Margin bawah agar terlihat lebih rapi */
+    
+  }
+
   header {
     background-color: #333;
     color: #fff;
