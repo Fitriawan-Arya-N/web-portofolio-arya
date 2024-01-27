@@ -1,12 +1,13 @@
+/* CSS utama */
 .header {
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-    background-color: #000000;
+    background-color: #ffffff;
     z-index: 1000; 
   }
-
+  
   nav ul {
     list-style: none;
     padding: 0;
@@ -21,10 +22,20 @@
   nav ul li button {
     background: none;
     border: none;
-    color: #fff;
-    font-size: 16px;
+    color: #000000;
+    font-size: 1.5rem; /* Ubah ukuran font menjadi responsif */
     cursor: pointer;
+    margin: 10px 0; /* Ubah margin atas dan bawah */
   }
   
-
+  /* Media Queries */
+  @media only screen and (max-width: 768px) {
+    .header {
+      padding: 10px; /* Tambahkan padding untuk membuat tombol lebih terpisah */
+    }
+    
+    nav ul li button {
+      font-size: 1rem; /* Ubah ukuran font menjadi lebih kecil untuk perangkat seluler */
+    }
+  }
   
