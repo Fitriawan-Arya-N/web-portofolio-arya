@@ -1,4 +1,5 @@
 import React from 'react';
+import "../styles/Header.css";
 
 const scrollToSection = (sectionId) => {
   const section = document.getElementById(sectionId);
@@ -9,7 +10,7 @@ const scrollToSection = (sectionId) => {
 
 const Header = () => {
   return (
-    <header>
+    <header className="header">
       <nav>
         <ul>
           <li><button onClick={() => scrollToSection("home")}>Home</button></li>

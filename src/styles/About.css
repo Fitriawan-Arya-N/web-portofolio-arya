@@ -2,13 +2,13 @@
 
 
 
-  body {
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
   }
   
-  .HomeTitle h2 {
+  .AboutTitle h2 {
     font-family: "Outfit", sans-serif; /* Menggunakan font "Outfit" */
     font-optical-sizing: auto;
     font-weight: 700; /* Ketebalan font yang sesuai */

@@ -1,12 +1,12 @@
 import React from 'react';
-import '../styles/HomePage.css'; // Impor file CSS
+import '../styles/HomePage.css';
 
 const HomePage = () => {
 
   return (
     <div>
       {/* Content */}
-      <div id="home" className="content-section">
+      <div id="home" className="HomeTitle">
       <h2>Ciao!!, <br/>Your smile could literally <br/>melt my existance </h2>
         {/* Isi konten untuk halaman Home */}
       </div>
