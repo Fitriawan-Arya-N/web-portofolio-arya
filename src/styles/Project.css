@@ -15,7 +15,7 @@
   .container-project {
     margin-left: 400px;
     margin-right: 400px;
-    margin-bottom: 50px;
+    margin-bottom: 400px;
   }
   
   .project-text {
@@ -36,7 +36,8 @@
     .container-project {
       margin-left: 50px;
       margin-right: 50px;
-      margin-bottom: 50px;
+      margin-bottom: 400px;
+
     }
   
     .project-text {
