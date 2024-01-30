@@ -3,7 +3,7 @@
 
   
   .ProjectTitle h2 {
-    font-family: "Outfit", sans-serif; /* Menggunakan font "Outfit" */
+    font-family: "SF Pro Display", sans-serif; /* Menggunakan font "Outfit" */
     font-optical-sizing: auto;
     font-weight: 700; /* Ketebalan font yang sesuai */
     font-style: normal; /* Gaya font normal */
@@ -19,7 +19,7 @@
   }
   
   .project-text {
-    font-family: "Urbanist", sans-serif;
+    font-family: "SF Pro Display", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
@@ -41,7 +41,7 @@
     }
   
     .project-text {
-      font-family: "Urbanist", sans-serif;
+      font-family: "SF Pro Display", sans-serif;
       font-optical-sizing: auto;
       font-weight: 500;
       font-style: normal;

@@ -1,7 +1,7 @@
 /* HomePage.css */
 
 .HomeTitle h2 {
-  font-family: "Outfit", sans-serif;
+  font-family: "SF Pro Display", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
@@ -18,7 +18,7 @@
 }
 
 .home-text {
-  font-family: "Urbanist", sans-serif;
+  font-family: "SF Pro Display", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
@@ -55,7 +55,7 @@
   }
 
   .home-text {
-    font-family: "Urbanist", sans-serif;
+    font-family: "SF Pro Display", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
