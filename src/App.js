@@ -12,9 +12,9 @@ const App = () => {
     <div>
       <Header /> {/* Tampilkan komponen Header */}
       <HomePage /> {/* Tampilkan halaman Home */}
-      <About /> {/* Tampilkan halaman About */}
       <Journal /> {/* Tampilkan halaman Journal */}
       <Project /> {/* Tampilkan halaman Project */}
+      <About /> {/* Tampilkan halaman About */}
       <Footer />
     </div>
   );

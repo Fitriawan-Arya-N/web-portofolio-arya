@@ -28,10 +28,17 @@ const HomePage = () => {
 
   return (
     <div ref={homeRef} className="container-home">
-      <div id="home" className="HomeTitle">
 
-        <p className="home-text">
-            
+      <div id="home" className="HomeTitle">
+        <div className="avatar-container">
+            <img src="https://png.pngtree.com/png-clipart/20221207/ourmid/pngtree-business-man-avatar-png-image_6514640.png" alt="Avatar" className="avatar" />
+        </div>
+        <h2>Arya Nugraha</h2>
+        <p className='home-text'>📍 Currently in Semarang, Central of Java</p>
+        <p className='home-text'>
+        Indeonesian who currently has an interest in becoming a devops engineer and previously had experience as a front-end engineer. 
+        I am a person who wants to develop and has a passion for learning new things. 
+        You can explore more deeply with this web if you want to know more about me.
         </p>
       </div>
     </div>

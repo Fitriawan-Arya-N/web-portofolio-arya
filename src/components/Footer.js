@@ -6,10 +6,10 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="left-column">
-        Copyright © 2021 Fitriawan Arya Nugraha
+        © 2021 Fitriawan Arya Nugraha
         </div>
         <div className="right-column">
-          Built with Tolak Angin
+          Built with ❤️
         </div>
       </div>
     </footer>

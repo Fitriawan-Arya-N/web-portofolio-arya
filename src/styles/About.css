@@ -3,10 +3,13 @@
   font-optical-sizing: auto;
   font-weight: 700; /* Ketebalan font yang sesuai */
   font-style: normal; /* Gaya font normal */
-  font-size: 50px; /* Ukuran font yang lebih besar */
-  margin-bottom: 10px; /* Margin bawah agar terlihat lebih rapi */
-  padding-top: 20px;
+  font-size: 100px;
+  margin-bottom: 10px;
+  padding-top: 80px;
+  color: black;
 }
+
+
 
 .container-about {
   margin-left: 400px;

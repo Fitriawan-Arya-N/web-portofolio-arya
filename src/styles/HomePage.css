@@ -1,20 +1,29 @@
 /* HomePage.css */
 
+.avatar-container {
+  padding-top: 150px;
+  margin: 20px 0;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
 .HomeTitle h2 {
   font-family: "SF Pro Display", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  font-size: 100px;
-  margin-bottom: 10px;
-  padding-top: 80px;
+  font-size: 50px;
 
 }
 
 .container-home {
   margin-left: 400px;
   margin-right: 400px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .home-text {
@@ -38,7 +47,7 @@
   }
 }
 
-.HomeTitle h2,
+.HomeTitle, h2, .avatar-container,
 .home-text {
   animation: fadeIn 1s ease-in; /* Apply the animation */
 }
