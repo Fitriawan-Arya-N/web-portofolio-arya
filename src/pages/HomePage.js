@@ -1,10 +1,9 @@
-// HomePage.js
-
 import React, { useRef, useEffect } from 'react';
 import '../styles/HomePage.css';
 
 const HomePage = () => {
   const homeRef = useRef(null);
+
 
   useEffect(() => {
     const homeElement = homeRef.current;
@@ -36,14 +35,14 @@ const HomePage = () => {
         <h2>Arya Nugraha</h2>
         <p className='home-text'>📍 Currently in Semarang, Central of Java</p>
         <p className='home-text'>
-        Indeonesian who currently has an interest in becoming a devops engineer and previously had experience as a front-end engineer. 
-        I am a person who wants to develop and has a passion for learning new things. 
-        You can explore more deeply with this web if you want to know more about me.
+          Indonesian who currently has an interest in becoming a DevOps engineer and previously had experience as a front-end engineer. 
+          I am a person who wants to develop and has a passion for learning new things. 
+          You can explore more deeply with this web if you want to know more about me and you can contact me for any collaboration.
         </p>
+        <button className='contact-btn'>Contact Me</button>
       </div>
     </div>
   );
 };
-
 
 export default HomePage;
